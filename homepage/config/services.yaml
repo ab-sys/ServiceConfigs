@@ -1,0 +1,39 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Infrastructure:
+    - Pi-hole:
+        href: https://dns.fritz.box
+    - phpIPAM:
+        href: https://ipam.fritz.box
+    - Nginx Proxy Manager:
+        href: https://nginx.fritz.box
+    - Portainer:
+        href: https://portainer.fritz.box
+    - Uptime Kuma:
+        href: https://uptime.fritz.box
+    - SmokePing:
+        href: https://smokeping.fritz.box
+
+- IoT:
+    - Home Assistant:
+        href: https://homeassistant.fritz.box
+    - ESPHome:
+        href: https://esphome.fritz.box
+    - HomeMatic CCU3:
+        href: http://192.168.178.86
+    - Sendmail:
+        href: https://sendmail.fritz.box
+
+- Documents:
+    - Notes:
+        href: https://notes.fritz.box
+    - Wallos:
+        href: https://wallos.fritz.box
+    - Paperless-ngx:
+        href: https://paperless.fritz.box
+    - Paperless AI:
+        href: https://paperless-ai.fritz.box
+    - Paperless GPT:
+        href: https://paperless-gpt.fritz.box
