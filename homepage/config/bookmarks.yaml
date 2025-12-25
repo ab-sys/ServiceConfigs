@@ -3,6 +3,10 @@
         - abbr: GH
           href: https://github.com/
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github-light.png
+    - Dashboardicons:
+        - abbr: DI
+          href: https://dashboardicons.com
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/homarr.png
     - MotU-Web:
         - abbr: MW
           href: https://motu.fritz.box/
@@ -34,3 +38,19 @@
         - abbr: N8N
           href: https://n8n.fritz.box
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png
+
+- Shopping:
+    - Amazon:
+        - abbr: AMZ
+          href: https://amazon.de/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/amazon.png
+
+- Gaming:
+    - BoardGameArena:
+        - abbr: BGA
+          href: https://boardgamearena.com/
+          icon: https://x.boardgamearena.net/data/themereleases/251222-1408/img/logo/logo_title_big.png
+    - Melodice:
+        - abbr: MEL
+          href: https://melodice.com/
+          icon: https://tse2.mm.bing.net/th/id/OIP.Kpn2jStgG0OUTqQ89JHeBgAAAA%3Fpid%3DApi
