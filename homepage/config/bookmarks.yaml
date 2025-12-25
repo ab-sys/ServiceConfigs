@@ -25,9 +25,11 @@
     - Watch2Gether:
         - abbr: W2G
           href: https://w2g.tv/
+          icon: https://w2g.tv/assets/up_/img/icons/256.png
     - Joyn:
         - abbr: JY
           href: https://joyn.de
+          icon: https://m.media-amazon.com/images/I/71Vw5JBhcEL.png
 
 - Automation:
     - Open WebUI:
@@ -44,6 +46,14 @@
         - abbr: AMZ
           href: https://amazon.de/
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/amazon.png
+    - Idealo:
+        - abbr: IDE
+          href: https://idealo.de/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/idealo.png
+    - Kleinanzeigen:
+        - abbr: KK
+          href: https://kleinanzeigen.de/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kleinanzeigen.png
 
 - Gaming:
     - BoardGameArena:
