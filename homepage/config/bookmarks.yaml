@@ -2,6 +2,7 @@
     - GitHub:
         - abbr: GH
           href: https://github.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github-light.png
     - MotU-Web:
         - abbr: MW
           href: https://motu.fritz.box/
@@ -10,11 +11,13 @@
     - Reddit:
         - abbr: RDT
           href: https://reddit.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png
 
 - Media:
     - YouTube:
         - abbr: YT
           href: https://youtube.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/youtube.png
     - Watch2Gether:
         - abbr: W2G
           href: https://w2g.tv/
@@ -26,6 +29,8 @@
     - Open WebUI:
         - abbr: OI
           href: https://chat.fritz.box
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/open-webui-light.png
     - n8n:
         - abbr: N8N
           href: https://n8n.fritz.box
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png

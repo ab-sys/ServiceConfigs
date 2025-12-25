@@ -5,35 +5,50 @@
 - Infrastructure:
     - Pi-hole:
         href: https://dns.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/pi-hole.png
     - phpIPAM:
         href: https://ipam.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/phpipam.png
     - Nginx Proxy Manager:
         href: https://nginx.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nginx-proxy-manager.png
     - Portainer:
         href: https://portainer.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer.png
     - Uptime Kuma:
         href: https://uptime.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/uptime-kuma.png
     - SmokePing:
         href: https://smokeping.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/smokeping.png
 
 - IoT:
     - Home Assistant:
         href: https://homeassistant.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/home-assistant.png
     - ESPHome:
         href: https://esphome.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/esphome.png
     - HomeMatic CCU3:
         href: http://192.168.178.86
+        icon: https://www.smarthomesupply.nl/afbeeldingen/logos/homematic-ip-logo.jpg
     - Sendmail:
         href: https://sendmail.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/mailfence.png
 
 - Documents:
     - Notes:
         href: https://notes.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/outline.png
     - Wallos:
         href: https://wallos.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/wallos.png
     - Paperless-ngx:
         href: https://paperless.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/paperless-ngx.png
     - Paperless AI:
         href: https://paperless-ai.fritz.box
+        icon: https://media.sys.truenas.net/apps/paperless-ai/icons/icon.png
     - Paperless GPT:
         href: https://paperless-gpt.fritz.box
+        icon: https://exhibitionplinths.co.uk/wp-content/uploads/2014/10/paperless_evernote_exhibition_plinths-500x400.png
