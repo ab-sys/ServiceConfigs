@@ -28,8 +28,8 @@ function Get-Tokens {
   param([Parameter(Mandatory)][string]$Text)
 
   $tokens = New-Object System.Collections.Generic.List[string]
-  $matches = [regex]::Matches($Text, '("([^"]+)"|''([^'']+)''|(\S+))')
-  foreach ($m in $matches) {
+  $xmatches = [regex]::Matches($Text, '("([^"]+)"|''([^'']+)''|(\S+))')
+  foreach ($m in $xmatches) {
     if ($m.Groups[2].Success) { $tokens.Add($m.Groups[2].Value); continue }
     if ($m.Groups[3].Success) { $tokens.Add($m.Groups[3].Value); continue }
     if ($m.Groups[4].Success) { $tokens.Add($m.Groups[4].Value); continue }
