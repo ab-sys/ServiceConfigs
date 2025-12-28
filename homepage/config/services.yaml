@@ -3,6 +3,12 @@
 # https://gethomepage.dev/configs/services/
 
 - Infrastructure:
+    - Fritz!Box:
+        href: https://fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fritzbox.png
+    - Fritz!Repeater:
+        href: https://repeater.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fritzbox.png
     - Pi-hole:
         href: https://dns.fritz.box
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/pi-hole.png

@@ -16,6 +16,14 @@
         - abbr: RDT
           href: https://reddit.com/
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png
+    - Facebook:
+        - abbr: FB
+          href: https://facebook.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/facebook.png
+    - Instagram:
+        - abbr: IG
+          href: https://instagram.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/instagram.png
 
 - Media:
     - YouTube:
@@ -54,13 +62,31 @@
         - abbr: KK
           href: https://kleinanzeigen.de/
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kleinanzeigen.png
+    - Ebay:
+        - abbr: EBAY
+          href: https://ebay.de/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/ebay.png
+    - OTTO:
+        - abbr: OTTO
+          href: https://otto.de/
+          icon: https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c6/d6/49/c6d64987-3993-f908-4ec8-4e6e6b9ff9b2/app-icon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 
 - Gaming:
     - BoardGameArena:
         - abbr: BGA
           href: https://boardgamearena.com/
-          icon: https://x.boardgamearena.net/data/themereleases/251222-1408/img/logo/logo_title_big.png
+          icon: https://doc.boardgamearena.com/images/thumb/e/e4/Logo_without_title.png/800px-Logo_without_title.png
     - Melodice:
         - abbr: MEL
           href: https://melodice.com/
           icon: https://tse2.mm.bing.net/th/id/OIP.Kpn2jStgG0OUTqQ89JHeBgAAAA%3Fpid%3DApi
+
+- Versicherungen:
+    - AXA:
+        - abbr: AXA
+          href: https://entry.axa.de/sls-myaxa/auth
+          icon: https://logos-world.net/wp-content/uploads/2020/07/AXA-Logo-700x394.png
+    - Allianz:
+        - abbr: ALZ
+          href: https://cim.allianz.de/ui/login/de/allianz/start
+          icon: https://static.vecteezy.com/system/resources/previews/026/555/095/non_2x/allianz-logo-transparent-free-png.png
