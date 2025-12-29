@@ -95,7 +95,7 @@ bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
 # --- Editor ------------------------------------------------------------------
-export EDITOR="${EDITOR:-vim}"
+export EDITOR="${EDITOR:-nano}"
 
 # --- User extensions ---------------------------------------------------------
 # Keep host-specific or personal additions in ~/.bash_aliases (not in this file).
