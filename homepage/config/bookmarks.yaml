@@ -84,6 +84,10 @@
         - abbr: MEL
           href: https://melodice.com/
           icon: https://tse2.mm.bing.net/th/id/OIP.Kpn2jStgG0OUTqQ89JHeBgAAAA%3Fpid%3DApi
+    - Boardgamegeek:
+        - abbr: BGG
+          href: https://boardgamegeek.com/
+          icon: https://play-lh.googleusercontent.com/VBRJ9cSokqKCSELV0WsobSluZ0JcGYY_t-mUa4EqBQXMJEy0hVJtjdGFO7zUCNd2uAtV
 
 - Versicherungen:
     - AXA:
