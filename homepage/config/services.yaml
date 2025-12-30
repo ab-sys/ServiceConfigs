@@ -27,6 +27,12 @@
     - SmokePing:
         href: https://smokeping.fritz.box
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/smokeping.png
+    - Proxmox VE:
+        href: https://proxmox.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox.png
+    - Proxmox Backup Server:
+        href: https://pbs.fritz.box
+        icon: https://linuxiac.b-cdn.net/wp-content/uploads/2022/11/proxmox-backup-server.jpg
 
 - IoT:
     - Home Assistant:
