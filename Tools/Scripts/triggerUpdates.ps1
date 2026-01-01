@@ -112,6 +112,11 @@ function Show-Progress {
         [int]$PercentComplete = 0,
         [int]$Id = 1
     )
+    # Fortschrittsanzeige auf den klassischen Renderer umstellen (kein ANSI)
+    if ($PSStyle -and $PSStyle.Progress) {
+        $PSStyle.Progress.View = 'Classic'
+    }
+
     Write-Progress -Activity $Activity -Status $Status -PercentComplete $PercentComplete -Id $Id
 }
 
