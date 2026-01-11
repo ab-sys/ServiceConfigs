@@ -10,6 +10,10 @@
     - MotU-Web:
         - abbr: MW
           href: https://motu.fritz.box/
+    - OneDrive:
+        - abbr: OD
+          href: https://onedrive.live.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-onedrive.png
 
 - Social:
     - Reddit:
@@ -38,16 +42,6 @@
         - abbr: JY
           href: https://joyn.de
           icon: https://m.media-amazon.com/images/I/71Vw5JBhcEL.png
-
-- Automation:
-    - Open WebUI:
-        - abbr: OI
-          href: https://chat.fritz.box
-          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/open-webui-light.png
-    - n8n:
-        - abbr: N8N
-          href: https://n8n.fritz.box
-          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png
 
 - Shopping:
     - Amazon:
@@ -98,3 +92,77 @@
         - abbr: ALZ
           href: https://cim.allianz.de/ui/login/de/allianz/start
           icon: https://static.vecteezy.com/system/resources/previews/026/555/095/non_2x/allianz-logo-transparent-free-png.png
+    - ADAC:
+        - abbr: ADAC
+          href: https://meine.adac.de/
+          icon: https://www.liblogo.com/img-logo/ad8294a084-adac-logo-adac-vector-logo-adac-logo-vector-free-download.png
+    - Advocard:
+        - abbr: ADV
+          href: https://www.advocard.de/mein-advocard/login
+          icon: https://www.advocard.de/presse/downloads/?file=files/userdata/content/presse/20130624_ADVO-RGB_2D%2BC_340mm.jpeg
+    - Alte Leipziger:
+        - abbr: AL
+          href: https://meine.alte-leipziger.de/
+          icon: https://www.marefa.org/w/images/thumb/5/51/Alte_Leipziger_%E2%80%93_Hallesche_logo.svg/800px-Alte_Leipziger_%E2%80%93_Hallesche_logo.svg.png?20231014120659
+    - AOK:
+        - abbr: AOK
+          href: https://meine.aok.de/
+          icon: https://www.designtagebuch.de/wp-content/uploads/mediathek/2021/09/aok-logo-invers.jpg
+    - Domcura:
+        - abbr: DOM
+          href: https://meine.domcura.de/
+          icon: https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/a8/76/f5/a876f5b7-23a5-12a7-9a76-c3cb4f424035/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/512x512bb.jpg
+    - Generali:
+        - abbr: GEN
+          href: https://meine.generali.de/
+          icon: https://logodix.com/logo/1742894.jpg
+    - HanseMerkur:
+        - abbr: HMK
+          href: https://meine.hansemerkur.de/
+          icon: https://werbildetaus.de/wp-content/uploads/listing-uploads/logo/2022/11/HM_Logo_Zentriert_Standard_RGB-neu.jpg
+    - K&M:
+        - abbr: KM
+          href: https://meine.km.de/
+          icon: https://www.versicherungsmakler-ostholstein.de/wp-content/uploads/2020/09/konzept-marketing-285x159-1.gif
+    - Phönix:
+        - abbr: PHO
+          href: https://meine.phoenix.de/
+          icon: https://phoenixmakler.de/wp-content/uploads/2024/01/Phoenix_Versicherungsmakler_82_0_33_32_klein.jpg
+    - Uelzener:
+        - abbr: UEL
+          href: https://meine.uelzener.de/
+          icon: https://www.bureau-bald.de/wp-content/uploads/2025/02/ADC_Thumbnail_UE_2000x1300px.jpg
+
+- Banking:
+    - Taunus-Sparkasse:
+        - abbr: TSK
+          href: https://www.taunus-sparkasse.de/
+          icon: https://i.pinimg.com/236x/2b/aa/ae/2baaae6090b329eff389fb5a5bf16fdb.jpg
+    - ING:
+        - abbr: ING
+          href: https://www.ing.de/
+          icon: https://assets.ing.com/m/12613c640164961e/original/ING_Identifier_FC.png
+    - Commerzbank:
+        - abbr: CMB
+          href: https://www.commerzbank.de/
+          icon: https://play-lh.googleusercontent.com/MGsf4N0G7i8QVhR6vJsf4C_eevDpDUQjqvIldSJXLQqUfkBzdPJ0MyDlsc5hwEAnag=s180
+    - 1822direkt:
+        - abbr: 1822
+          href: https://www.1822direkt.de/
+          icon: https://www.designtagebuch.de/wp-content/uploads/mediathek/2020/08/1822-logo-profilbild.jpg
+    - Flatex:
+        - abbr: FLX
+          href: https://www.flatex.de/
+          icon: https://play-lh.googleusercontent.com/iNV73n5gGcWlljIPUBNYAgja83HRAPTZdLNEwEsBo9qezlOzRwKri8SC3QSPmCE_RqE
+    - CA-Autobank:
+        - abbr: CA
+          href: https://www.ca-autobank.de/
+          icon: https://upload.net-empregos.com/uploads/104af83c591546e5ba9895846dd4b14f/logo-net-empregos.jpg
+    - Cronbank:
+        - abbr: CRON
+          href: https://www.cronbank.de/
+          icon: https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDQyOWVjZGItOGU0NC00MjYzLThkM2EtOGY0ZTM3ZmUxZmM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjMyMCwibWF4X2hlaWdodCI6MzIwfQ?signature=32084b7d73a68bd3eb46b9e103de42817eebcd4da5d90d41768158a9396baaaa
+    - Garanti Bank:
+        - abbr: GAR
+          href: https://www.garantibank.de/
+          icon: https://logowik.com/content/uploads/images/garanti-bankasi-bbva.jpg

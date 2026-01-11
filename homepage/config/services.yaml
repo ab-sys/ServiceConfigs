@@ -47,6 +47,12 @@
     - Sendmail:
         href: https://sendmail.fritz.box
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/mailfence.png
+    - Open WebUI:
+        href: https://chat.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/open-webui-light.png
+    - n8n:
+        href: https://n8n.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png
 
 - Documents:
     - Notes:
