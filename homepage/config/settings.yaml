@@ -2,6 +2,17 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/settings/
 
+title: Zuhause
+description: Smart Home, Infrastruktur und Alltag an einem Ort
+language: de
+theme: dark
+color: slate
+headerStyle: boxedWidgets
+iconStyle: theme
+fullWidth: true
+useEqualHeights: true
+target: _self
+
 background:
   image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
   blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
@@ -17,5 +28,57 @@ blockHighlights:
     warn: "bg-amber-300/30 text-amber-900 dark:bg-amber-900/30 dark:text-amber-200"
     danger: "bg-rose-700/45 text-rose-200 dark:bg-rose-950/70 dark:text-rose-400"
 
-target: _self
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  mobileButtonPosition: bottom-right
 
+pwa:
+  shortcuts:
+    - name: Zuhause
+      url: /#zuhause
+    - name: Infrastruktur
+      url: /#infrastruktur
+    - name: Organisation
+      url: /#organisation
+
+layout:
+  Hausautomation:
+    tab: Zuhause
+    style: row
+    columns: 3
+    icon: home-assistant.png
+  Digitale Dienste:
+    tab: Zuhause
+    style: row
+    columns: 3
+    icon: n8n.png
+  Netzwerk:
+    tab: Infrastruktur
+    style: row
+    columns: 3
+    icon: mdi-router-network
+  Betrieb & Monitoring:
+    tab: Infrastruktur
+    style: row
+    columns: 3
+    icon: mdi-monitor-dashboard
+  Dokumente:
+    tab: Organisation
+    style: row
+    columns: 3
+    icon: paperless-ngx.png
+  Developer:
+    tab: Infrastruktur
+  Social:
+    tab: Alltag
+  Media:
+    tab: Alltag
+  Shopping:
+    tab: Alltag
+  Gaming:
+    tab: Alltag
+  Versicherungen:
+    tab: Alltag
+  Banking:
+    tab: Alltag

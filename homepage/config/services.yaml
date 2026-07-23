@@ -2,74 +2,117 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- Infrastructure:
-    - Fritz!Box:
-        href: https://fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fritzbox.png
-    - Fritz!Repeater:
-        href: https://repeater.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fritzbox.png
-    - Pi-hole:
-        href: https://dns.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/pi-hole.png
-    - phpIPAM:
-        href: https://ipam.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/phpipam.png
-    - Nginx Proxy Manager:
-        href: https://nginx.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nginx-proxy-manager.png
-    - Portainer:
-        href: https://portainer.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer.png
-    - Semaphore:
-        href: https://semaphore.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/semaphore.png
-    - Uptime Kuma:
-        href: https://uptime.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/uptime-kuma.png
-    - SmokePing:
-        href: https://smokeping.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/smokeping.png
-    - Proxmox VE:
-        href: https://proxmox.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox.png
-    - Proxmox Backup Server:
-        href: https://pbs.fritz.box
-        icon: https://linuxiac.b-cdn.net/wp-content/uploads/2022/11/proxmox-backup-server.jpg
-
-- IoT:
+- Hausautomation:
     - Home Assistant:
         href: https://homeassistant.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/home-assistant.png
+        description: Zentrale für Hausautomation und Geräte
+        icon: home-assistant.png
+        siteMonitor: https://homeassistant.fritz.box
     - ESPHome:
         href: https://esphome.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/esphome.png
+        description: Verwaltung der ESP-basierten Geräte
+        icon: esphome.png
+        siteMonitor: https://esphome.fritz.box
     - HomeMatic CCU3:
         href: http://192.168.178.86
-        icon: https://www.smarthomesupply.nl/afbeeldingen/logos/homematic-ip-logo.jpg
-    - Sendmail:
-        href: https://sendmail.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/mailfence.png
+        description: Zentrale für HomeMatic-Komponenten
+        icon: homematic.png
+        siteMonitor: http://192.168.178.86
+
+- Digitale Dienste:
     - Open WebUI:
         href: https://chat.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/open-webui-light.png
+        description: Lokale KI-Chat-Oberfläche
+        icon: open-webui-light.png
+        siteMonitor: https://chat.fritz.box
     - n8n:
         href: https://n8n.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png
+        description: Automatisierte Workflows und Integrationen
+        icon: n8n.png
+        siteMonitor: https://n8n.fritz.box
 
-- Documents:
+- Netzwerk:
+    - Fritz!Box:
+        href: https://fritz.box
+        description: Router, Internetzugang und Heimnetz
+        icon: fritzbox.png
+        siteMonitor: https://fritz.box
+    - Fritz!Repeater:
+        href: https://repeater.fritz.box
+        description: WLAN-Mesh und Funknetz-Erweiterung
+        icon: fritzbox.png
+        siteMonitor: https://repeater.fritz.box
+    - Pi-hole:
+        href: https://dns.fritz.box
+        description: DNS-Filter und Werbeblocker
+        icon: pi-hole.png
+        siteMonitor: https://dns.fritz.box
+    - phpIPAM:
+        href: https://ipam.fritz.box
+        description: IP-Adressverwaltung des Heimnetzes
+        icon: phpipam.png
+        siteMonitor: https://ipam.fritz.box
+    - Nginx Proxy Manager:
+        href: https://nginx.fritz.box
+        description: Reverse Proxy und TLS-Zertifikate
+        icon: nginx-proxy-manager.png
+        siteMonitor: https://nginx.fritz.box
+
+- Betrieb & Monitoring:
+    - Checkmk:
+        href: http://checkmk.fritz.box/monitoring/
+        description: Überwachung von Hosts und Diensten
+        icon: checkmk.png
+        siteMonitor: http://checkmk.fritz.box/monitoring/
+    - SmokePing:
+        href: https://smokeping.fritz.box
+        description: Latenz- und Paketverlust-Monitoring
+        icon: smokeping.png
+        siteMonitor: https://smokeping.fritz.box
+    - Portainer:
+        href: https://portainer.fritz.box
+        description: Verwaltung der Container-Umgebung
+        icon: portainer.png
+        siteMonitor: https://portainer.fritz.box
+    - Semaphore:
+        href: https://semaphore.fritz.box
+        description: Ansible-Automatisierung und Deployments
+        icon: semaphore.png
+        siteMonitor: https://semaphore.fritz.box
+    - Proxmox VE:
+        href: https://proxmox.fritz.box
+        description: Virtualisierung und Serververwaltung
+        icon: proxmox.png
+        siteMonitor: https://proxmox.fritz.box
+    - Proxmox Backup Server:
+        href: https://pbs.fritz.box
+        description: Sicherungen und Wiederherstellungen
+        icon: proxmox-backup-server.png
+        siteMonitor: https://pbs.fritz.box
+
+- Dokumente:
     - Notes:
         href: https://notes.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/outline.png
+        description: Notizen und Wissenssammlung
+        icon: outline.png
+        siteMonitor: https://notes.fritz.box
     - Wallos:
         href: https://wallos.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/wallos.png
+        description: Abonnements und wiederkehrende Kosten
+        icon: wallos.png
+        siteMonitor: https://wallos.fritz.box
     - Paperless-ngx:
         href: https://paperless.fritz.box
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/paperless-ngx.png
+        description: Dokumentenarchiv und Volltextsuche
+        icon: paperless-ngx.png
+        siteMonitor: https://paperless.fritz.box
     - Paperless AI:
         href: https://paperless-ai.fritz.box
-        icon: https://media.sys.truenas.net/apps/paperless-ai/icons/icon.png
+        description: KI-gestützte Dokumentenverarbeitung
+        icon: si-openai-#412991
+        siteMonitor: https://paperless-ai.fritz.box
     - Paperless GPT:
         href: https://paperless-gpt.fritz.box
-        icon: https://exhibitionplinths.co.uk/wp-content/uploads/2014/10/paperless_evernote_exhibition_plinths-500x400.png
+        description: GPT-Unterstützung für Paperless-Dokumente
+        icon: si-openai-#10a37f
+        siteMonitor: https://paperless-gpt.fritz.box
