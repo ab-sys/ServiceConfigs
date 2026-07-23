@@ -21,6 +21,9 @@
     - Portainer:
         href: https://portainer.fritz.box
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer.png
+    - Semaphore:
+        href: https://semaphore.fritz.box
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/semaphore.png
     - Uptime Kuma:
         href: https://uptime.fritz.box
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/uptime-kuma.png
