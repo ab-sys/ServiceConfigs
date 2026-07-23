@@ -10,10 +10,20 @@
     - MotU-Web:
         - abbr: MW
           href: https://motu.fritz.box/
-    - OneDrive:
-        - abbr: OD
-          href: https://onedrive.live.com/login/de-de/
-          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-onedrive.png
+
+- Produktivität:
+    - Proton Mail:
+        - abbr: PM
+          href: https://mail.proton.me/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proton-mail.png
+    - Proton Calendar:
+        - abbr: PCAL
+          href: https://calendar.proton.me/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proton-calendar.png
+    - Proton Drive:
+        - abbr: PD
+          href: https://drive.proton.me/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proton-drive.png
 
 - Social:
     - Reddit:
@@ -42,6 +52,42 @@
         - abbr: JY
           href: https://www.joyn.de/
           icon: https://m.media-amazon.com/images/I/71Vw5JBhcEL.png
+    - RTL+:
+        - abbr: RTL
+          href: https://plus.rtl.de/
+          icon: https://www.google.com/s2/favicons?sz=128&domain=plus.rtl.de
+    - Netflix:
+        - abbr: NFLX
+          href: https://www.netflix.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/netflix.png
+    - Disney+:
+        - abbr: DSN
+          href: https://www.disneyplus.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/disney-plus.png
+    - Amazon Prime Video:
+        - abbr: PV
+          href: https://www.primevideo.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/prime-video.png
+    - Jellyfin:
+        - abbr: JF
+          href: https://motu-nexus.duckdns.org/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/jellyfin.png
+    - Seerr:
+        - abbr: SEER
+          href: https://request.motu-nexus.duckdns.org/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/jellyseerr.png
+    - hr-iNFO:
+        - abbr: HRI
+          href: https://dispatcher.rndfnk.com/hr/hrinfo/live/high
+          icon: https://www.google.com/s2/favicons?sz=128&domain=hr-inforadio.de
+    - hr3:
+        - abbr: HR3
+          href: https://dispatcher.rndfnk.com/hr/hr3/live/mp3/high
+          icon: https://www.google.com/s2/favicons?sz=128&domain=hr3.de
+    - Spotify:
+        - abbr: SPOT
+          href: https://open.spotify.com/
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/spotify.png
 
 - Shopping:
     - Amazon:
@@ -67,7 +113,7 @@
     - Bring!:
         - abbr: BRG
           href: https://web.getbring.com/
-          icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.3_2mgNzIXTfjWHrdY-KLRgAAAA%3Fpid%3DApi&f=1&ipt=0afaf4de5023f0268c89259d5ea98b72e6fc37263065cddc20cc9dd86ab39dd0
+          icon: https://www.google.com/s2/favicons?sz=128&domain=getbring.com
 
 - Gaming:
     - BoardGameArena:
@@ -132,6 +178,10 @@
         - abbr: UEL
           href: https://uelzener.de/service/
           icon: https://www.bureau-bald.de/wp-content/uploads/2025/02/ADC_Thumbnail_UE_2000x1300px.jpg
+    - Rhion:
+        - abbr: RHI
+          href: https://rhion.digital/kunden-service/digitales-postfach
+          icon: https://www.google.com/s2/favicons?sz=128&domain=rhion.digital
 
 - Banking:
     - Taunus-Sparkasse:
@@ -154,10 +204,6 @@
         - abbr: FLX
           href: https://konto.flatex.de/
           icon: https://play-lh.googleusercontent.com/iNV73n5gGcWlljIPUBNYAgja83HRAPTZdLNEwEsBo9qezlOzRwKri8SC3QSPmCE_RqE
-    - CA-Autobank:
-        - abbr: CA
-          href: https://my.ca-autobank.de/
-          icon: https://upload.net-empregos.com/uploads/104af83c591546e5ba9895846dd4b14f/logo-net-empregos.jpg
     - Cronbank:
         - abbr: CRON
           href: https://login-portal.cronbank.de/

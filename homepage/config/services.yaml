@@ -16,7 +16,7 @@
     - HomeMatic CCU3:
         href: https://ccu.fritz.box
         description: Zentrale für HomeMatic-Komponenten
-        icon: homematic.png
+        icon: homematic-ip.png
         siteMonitor: https://ccu.fritz.box
 
 - Digitale Dienste:
@@ -69,11 +69,6 @@
         description: Latenz- und Paketverlust-Monitoring
         icon: smokeping.png
         siteMonitor: https://smokeping.fritz.box
-    - Portainer:
-        href: https://portainer.fritz.box
-        description: Verwaltung der Container-Umgebung
-        icon: portainer.png
-        siteMonitor: https://portainer.fritz.box
     - Semaphore:
         href: https://semaphore.fritz.box
         description: Ansible-Automatisierung und Deployments

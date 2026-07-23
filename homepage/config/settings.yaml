@@ -41,6 +41,8 @@ pwa:
       url: /#infrastruktur
     - name: Organisation
       url: /#organisation
+    - name: Produktivität
+      url: /#produktivitaet
 
 layout:
   Hausautomation:
@@ -70,6 +72,8 @@ layout:
     icon: paperless-ngx.png
   Developer:
     tab: Infrastruktur
+  Produktivität:
+    tab: Produktivität
   Social:
     tab: Alltag
   Media:
