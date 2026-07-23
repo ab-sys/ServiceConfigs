@@ -14,10 +14,10 @@
         icon: esphome.png
         siteMonitor: https://esphome.fritz.box
     - HomeMatic CCU3:
-        href: http://192.168.178.86
+        href: https://ccu.fritz.box
         description: Zentrale für HomeMatic-Komponenten
         icon: homematic.png
-        siteMonitor: http://192.168.178.86
+        siteMonitor: https://ccu.fritz.box
 
 - Digitale Dienste:
     - Open WebUI:
